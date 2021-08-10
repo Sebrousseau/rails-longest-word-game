@@ -1,0 +1,6 @@
+<h1>Games#score</h1>
+<br>
+<h2><%= @answer %></h2>
+<br>
+<h2>Your score is <%= @cache.read("score") %></h2>
+<h3><%= link_to "Try again?", new_path %></h3>
